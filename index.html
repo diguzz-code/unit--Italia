@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'UNITÀ D'ITALIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">L'UNITÀ D'ITALIA</a>
+
+        <div class="nav-links" id="navLinks">
+            <a href="unità.html" class="nav-link">L'Unità</a>
+            <a href="guerre.html" class="nav-link">Guerre</a>
+            <a href="patrioti.html" class="nav-link">Patrioti</a>
+            <a href="mafia.html" class="nav-link">La Mafia</a>
+            <a href="italia-moderna.html" class="nav-link">Italia Moderna</a>
+            <a href="cronologia.html" class="nav-link">Cronologia</a>
+            <a href="esplora.html" class="cta-button">ESPLORA</a>
+        </div>
+
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Side Navigation (Diamonds) -->
+    <div class="side-navigation">
+        <div class="side-nav-item active" data-section="hero"></div>
+        <div class="side-nav-item" data-section="unita"></div>
+        <div class="side-nav-item" data-section="guerre"></div>
+        <div class="side-nav-item" data-section="personaggi"></div>
+        <div class="side-nav-item" data-section="mafia"></div>
+        <div class="side-nav-item" data-section="moderna"></div>
+        <div class="side-nav-item" data-section="timeline"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section" style="background-image: url('img/unità_ditalia.png');">
+        <div class="overlay"></div>
+        <div class="section-content text-center">
+            <h1 class="hero-title">L'Unità d'Italia</h1>
+            <p class="hero-subtitle">Un viaggio attraverso il Risorgimento italiano</p>
+            <a href="#unita" class="btn">Esplora la Storia</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- L'Unità d'Italia Section -->
+    <section id="unita" class="section"
+        style="background-image: url(img/unità/unita.avif); background-position: center 10%;">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <h2 class="section-title" style="font-size: 5.5rem;">L'Unità d'Italia</h2>
+            <div class="grid-container">
+                <div class="text-content">
+                    <h3 class="content-title">La Nascita di una Nazione</h3>
+                    <p class="content-text">Il 17 marzo 1861 nasce ufficialmente il Regno d’Italia, segnando
+                        l’unificazione politica della penisola. Vittorio Emanuele II ne divenne il primo re. Il
+                        processo, noto come Risorgimento, fu guidato da patrioti come Mazzini, Cavour e Garibaldi,
+                        attraverso diplomazia, guerre d’indipendenza e imprese come la Spedizione dei Mille.
+                        L’unificazione si completò nel 1870 con la conquista di Roma.</p>
+                </div>
+                <div class="media-content">
+                    <iframe src="https://www.youtube.com/embed/0IdqpQaZRrU"
+                        title="L'Unità d'Italia - Alessandro Barbero" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Le Guerre d'Indipendenza Section -->
+    <section id="guerre" class="section"
+        style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/73/Battaglia_di_Novara.jpg');">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <h2 class="section-title">Le Guerre d'Indipendenza</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="card-title">Prima Guerra d'Indipendenza (1848-1849)</h3>
+                    <p class="card-text">La Prima Guerra d'Indipendenza scoppiò nel marzo 1848, in un'Europa sconvolta
+                        dalle
+                        rivoluzioni. Il re Carlo Alberto di Savoia dichiarò guerra all'Austria, approfittando delle
+                        insurrezioni nelle città lombardo-venete.</p>
+                    <p class="card-text">Dopo iniziali successi, l'esercito piemontese subì una grave sconfitta a
+                        Custoza (luglio 1848).
+                        La guerra riprese nel marzo 1849, ma si concluse rapidamente con la sconfitta di Novara.</p>
+                    <div class="image-container">
+                        <img src="img/guerre/prima.jpg" alt="Prima Guerra d'Indipendenza">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Seconda Guerra d'Indipendenza (1859)</h3>
+                    <p class="card-text">La Seconda Guerra d'Indipendenza fu il risultato della politica diplomatica di
+                        Cavour, che riuscì ad ottenere l'alleanza con la Francia di Napoleone III contro l'Austria.</p>
+                    <p class="card-text">La guerra iniziò nell'aprile 1859 e vide le vittorie franco-piemontesi a
+                        Magenta e Solferino. Il
+                        conflitto portò all'annessione della Lombardia al Piemonte.<br><br><br></p>
+                    <div class="image-container">
+                        <img src="img/guerre/seconda.jpg" alt="Seconda Guerra d'Indipendenza">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Terza Guerra d'Indipendenza (1866)</h3>
+                    <p class="card-text">La Terza Guerra d'Indipendenza venne combattuta dal Regno d'Italia contro
+                        l'Impero
+                        austriaco nel contesto della guerra austro-prussiana. L'Italia si alleò con la Prussia per
+                        ottenere il Veneto.</p>
+                    <p class="card-text">Militarmente, l'Italia subì sconfitte sia in terra (Custoza) che in mare
+                        (Lissa), ma la vittoria
+                        prussiana sull'Austria assicurò comunque il passaggio del Veneto al Regno d'Italia.<br><br></p>
+                    <div class="image-container">
+                        <img src="img/guerre/terza.jpg" alt="Terza Guerra d'Indipendenza">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- I Padri della Patria Section -->
+    <section id="personaggi" class="section"
+        style="background-image: url('img/padri.jpg'); background-position: center 25%;">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <h2 class="section-title">I Padri della Patria</h2>
+            <div class="personaggi-container">
+                <div class="personaggio-card">
+                    <div class="image-container" style="position: relative;">
+                        <img src="img/patrioti/mazzini.jpg" alt="Giuseppe Mazzini">
+                    </div>
+                    <h3 class="personaggio-name">Giuseppe Mazzini</h3>
+                    <p class="personaggio-date">1805-1872</p>
+                    <p class="personaggio-desc">Filosofo, politico e rivoluzionario, Mazzini fu il teorico del
+                        Risorgimento italiano. Fondò la
+                        Giovine Italia, associazione politica che propugnava la liberazione e l'unificazione dell'Italia
+                        come repubblica democratica e indipendente.</p>
+                </div>
+                <div class="personaggio-card">
+                    <div class="image-container">
+                        <img src="img/patrioti/camillo.jpg"
+                            alt="Camillo Benso">
+                    </div>
+                    <h3 class=" personaggio-name">Camillo Benso, Conte di Cavour</h3>
+                    <p class="personaggio-date">1810-1861</p>
+                    <p class="personaggio-desc">Politico e imprenditore, primo Presidente del Consiglio del Regno
+                        d'Italia. Cavour fu l'artefice
+                        della politica diplomatica che portò all'unificazione, grazie alle alleanze internazionali e
+                        a
+                        una visione liberale e pragmatica.</p>
+                </div>
+                <div class="personaggio-card">
+                    <div class="image-container">
+                        <img src="img/patrioti/garibaldi.png" alt="Giuseppe Garibaldi">
+
+                    </div>
+                    <h3 class="personaggio-name">Giuseppe Garibaldi</h3>
+                    <p class="personaggio-date">1807-1882</p>
+                    <p class="personaggio-desc">Generale, patriota e condottiero, Garibaldi fu l'eroe popolare del
+                        Risorgimento. La sua
+                        Spedizione dei Mille nel 1860 portò alla conquista del Regno delle Due Sicilie e fu decisiva
+                        per
+                        l'unificazione italiana.</p>
+                </div>
+                <div class="personaggio-card">
+                    <div class="image-container">
+                        <img src="img/patrioti/vittorio-emanuele.avif" alt="Vittorio Emanuele II" style="object-position: top;">
+                    </div>
+                    <h3 class="personaggio-name">Vittorio Emanuele II</h3>
+                    <p class="personaggio-date">1820-1878</p>
+                    <p class="personaggio-desc">Ultimo re di Sardegna e primo re d'Italia, Vittorio Emanuele II
+                        seppe
+                        gestire la transizione dal
+                        Regno di Sardegna al Regno d'Italia, accettando le istituzioni liberali e sostenendo le
+                        politiche di Cavour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- La Mafia Section -->
+    <section id="mafia" class="section dark-section">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <h2 class="section-title">La Mafia: Il Lato Oscuro della Storia Italiana</h2>
+            <div class="media-container">
+                <iframe src="https://www.youtube.com/embed/FnlaH4D7gv8" title="La STORIA della MAFIA Siciliana"
+                    allowfullscreen=""></iframe>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Italia Moderna Section -->
+    <section id="moderna" class="section"
+        style="background-image: url('https://www.unesco.it/wp-content/uploads/2016/10/firenze.jpg');">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <h2 class="section-title">Dall'Unità all'Italia Moderna</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="card-title">Trasformazione e Crescita</h3>
+                    <p class="card-text">Dopo l'unificazione, l'Italia ha affrontato numerose sfide: la questione
+                        meridionale, le due
+                        guerre mondiali, il periodo fascista e infine la nascita della Repubblica. Questi eventi hanno
+                        plasmato profondamente l'identità nazionale italiana.</p>
+                    <p class="card-text">Dalla ricostruzione del dopoguerra al miracolo economico degli anni '60,
+                        l'Italia si
+                        è trasformata da paese prevalentemente agricolo a potenza industriale, membro fondatore
+                        dell'Unione Europea e parte del G7.</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Patrimonio Culturale</h3>
+                    <p class="card-text">L'Italia vanta il maggior numero di siti UNESCO al mondo, testimonianza di un
+                        patrimonio
+                        artistico e culturale ineguagliabile.</p>
+                    <div class="image-container">
+                        <img src="https://www.unesco.it/wp-content/uploads/2016/10/firenze.jpg"
+                            alt="Patrimonio culturale italiano">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Paesaggi Italiani</h3>
+                    <p class="card-text">Dalle Alpi alle coste mediterranee, l'Italia offre una straordinaria varietà di
+                        paesaggi che
+                        rappresentano l'identità del Paese.</p>
+                    <div class="image-container">
+                        <img src="https://www.paesaggiotoscana.it/wp-content/uploads/2022/06/f148db7a11264560125e9d92e90099fb.jpg"
+                            alt="Paesaggio italiano">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Cronologia Section -->
+    <section id="timeline" class="section dark-section">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <h2 class="section-title">Cronologia dell'Unità d'Italia</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1848</h3>
+                    <p class="timeline-text">Prima Guerra d'Indipendenza contro l'Austria</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1849</h3>
+                    <p class="timeline-text">Sconfitta a Novara, Vittorio Emanuele II diventa re</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1852</h3>
+                    <p class="timeline-text">Cavour diventa Primo Ministro del Regno di Sardegna</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1859</h3>
+                    <p class="timeline-text">Seconda Guerra d'Indipendenza, il Piemonte conquista la Lombardia</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1860</h3>
+                    <p class="timeline-text">Spedizione dei Mille di Garibaldi, conquista del Sud</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1861</h3>
+                    <p class="timeline-text">Proclamazione del Regno d'Italia con Vittorio Emanuele II come re</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1866</h3>
+                    <p class="timeline-text">Terza Guerra d'Indipendenza, annessione del Veneto</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="timeline-year">1870</h3>
+                    <p class="timeline-text">Presa di Roma, che diventa capitale del Regno d'Italia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
